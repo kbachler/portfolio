@@ -1,13 +1,21 @@
 @font-face {
     font-family: 'Muli';
     src: url('src/Muli.ttf');
-  }
-  
-#container .body {
-  background-color:paleturquoise;
+}
+
+body {
   margin: 0;
   padding: 0;
 }
-#container .h1 {
-  color:azure
+
+.background {
+  background-color:paleturquoise;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+#container {
+  font-family: 'Muli', sans-serif;
 }
