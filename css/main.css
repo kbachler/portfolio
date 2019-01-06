@@ -3,7 +3,6 @@
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
-  color: #434343;
   background: #dae3e7;
   margin: 10;
   padding: 10;
@@ -33,7 +32,6 @@ a {
 a:hover {
   text-decoration: underline;
   color: #5f6b77;
-  color: #2d844e;
 }
 .btn,
 a.btn {
@@ -99,9 +97,10 @@ a.dotted-link:hover {
 
 /* ======= Header ======= */
 .header {
-  padding: 30px 0;
+  padding: 20px;
   background: #f5f5f5;
   border-top: 10px solid #778492;
+  overflow: auto;
 }
 .header .btn {
   margin-top: 60px;
@@ -157,21 +156,22 @@ a.dotted-link:hover {
   padding-top: 5px;
 }
 
-ul { 
+ul, li { 
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
+  display: inline;
 }
 
 /* ======= Article / Body ======= */
 .body {
-  padding: 30px 0;
-  background: #b1f3ff;
+  padding: 50px;
+  background: #141316;
 }
 
 .body .project-content .name {
-  color: #49515a;
+  color: #170e1f;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 10px;
