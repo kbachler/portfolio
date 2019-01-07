@@ -1,36 +1,68 @@
+/* padding: 0 0 20px 0; /*top right bottom left*/
 
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #dae3e7;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 /* ======= Base ======= */
 body {
   font-family: 'Roboto', sans-serif;
-  background: #dae3e7;
-  margin: 10;
-  padding: 10;
+  background: white;
+  margin-left: 15%;
+  margin-right: 15%;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color:#1a142c;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   color:#778492;
 }
 
 a {
-  color: #3aaa64;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
 }
 a:hover {
-  text-decoration: underline;
   color: #5f6b77;
 }
 .btn,
@@ -47,64 +79,13 @@ a.btn {
 a.btn .fa {
   margin-right: 5px;
 }
-.btn:focus,
-a.btn:focus {
-  color: #fff;
-}
-a.btn-cta-primary,
-.btn-cta-primary {
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-a.btn-cta-primary:hover,
-.btn-cta-primary:hover {
-  background: #49ac43;
-  border: 1px solid #49ac43;
-  color: #fff;
-}
-a.btn-cta-secondary,
-.btn-cta-secondary {
-  background: #479fc8;
-  border: 1px solid #479fc8;
-  color: #fff;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-a.btn-cta-secondary:hover,
-.btn-cta-secondary:hover {
-  background: #3893bd;
-  border: 1px solid #3893bd;
-  color: #fff;
-}
-.text-highlight {
-  color: #32383e;
-}
-.label-theme {
-  background: #3aaa64;
-  font-size: 12px;
-}
-a.dotted-link {
-  border-bottom: 1px dotted #778492;
-  color: #778492;
-}
-a.dotted-link:hover {
-  text-decoration: none;
-  color: #49515a;
-}
 
 /* ======= Header ======= */
 .header {
-  padding: 20px;
-  background: #f5f5f5;
+  padding: 20px 1px 30px 30px; /*top right bottom left*/
+  background:#dae3e7;
   border-top: 10px solid #778492;
   overflow: auto;
-}
-.header .btn {
-  margin-top: 60px;
-  font-weight: bold;
 }
 .header .profile-image {
   margin-right: 30px;
@@ -116,7 +97,6 @@ a.dotted-link:hover {
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
-
 }
 .header .profile-content .desc {
   color: #778492;
@@ -125,7 +105,6 @@ a.dotted-link:hover {
   font-size: 24px;
   margin-top: 0;
   margin-bottom: 15px;
-
 }
 .header .profile-content .social a {
   background: #b0b7bf;
@@ -145,7 +124,7 @@ a.dotted-link:hover {
   list-style-type: none;
 }
 .header .profile-content .social a:hover {
-  background: #778492;
+  background: #0e0b18;
 }
 .header .profile-content .social a .fab {
   font-size: 24px;
@@ -164,15 +143,55 @@ ul, li {
   display: inline;
 }
 
-/* ======= Article / Body ======= */
-.body {
-  padding: 50px;
-  background: #141316;
+/* ======= Webpage Body ======= */
+#about {
+  padding: 40px 40px 40px 40px;
+}
+#about h2 {
+  color: slategray;
+  font-size: 30px;
+  margin: -2.5rem auto 1rem;
+  display: table;
+  padding: 0 .5rem;
+  background-color: white;
+}
+.main-container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+*,::after, ::before {
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  padding: 1.5rem 2rem;
+}
+.container.is-centered {
+  text-align: center;
+}
+.container.with-title {
+  padding-top: -2rem;
+  border: 3px solid black;
+  background-color: #fff;
 }
 
-.body .project-content .name {
-  color: #170e1f;
-  font-size: 38px;
-  margin-bottom: 5px;
-  margin-top: 10px;
+#projects {
+  padding: 40px 40px 40px 40px;
+}
+#projects h2 {
+  color: slategray;
+  font-size: 30px;
+  margin: -2.5rem auto 1rem;
+  display: table;
+  padding: 0 .5rem;
+  background-color: white;
+}
+h3 {
+  font-style: bold;
+  color: thistle;
+  font-size: 24px;
+  text-align: left;
+  padding-left: 20px;
 }
