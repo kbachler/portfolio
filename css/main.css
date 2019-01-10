@@ -145,7 +145,7 @@ ul, li {
 
 /* ======= Webpage Body ======= */
 #about {
-  padding: 40px 40px 40px 40px;
+  padding: 40px 500px 40px 40px;
 }
 
 .main-container {
@@ -175,6 +175,11 @@ ul, li {
 
 #projects {
   padding: 40px 40px 40px 40px;
+}
+
+.project-desc {
+  padding-left: 100px;
+  padding-right: 60px;
 }
 
 #about h2,
