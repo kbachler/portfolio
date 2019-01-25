@@ -66,6 +66,8 @@ a {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  color: #00b7ff;
+  text-decoration: none;
 }
 a:hover {
   color: #5f6b77;
@@ -186,6 +188,8 @@ a.btn .fa {
 }
 .container.with-title {
   padding-top: -2rem;
+  padding-left: 100px;
+  padding-right: 100px;
   border: 3px solid black;
   background-color: #fff;
 }
@@ -195,8 +199,8 @@ a.btn .fa {
 }
 
 .project-desc {
-  padding-left: 100px;
-  padding-right: 60px;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 #bullets {
