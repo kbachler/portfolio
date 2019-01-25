@@ -33,7 +33,7 @@
 @media screen and (min-width: 500px) {
   body { width:420px; }
   .container {width: 100%;}
-  .ul {width: 80%;}
+  .ul {font-size: 18px;}
 }
 
 /* ======= Base ======= */
