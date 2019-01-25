@@ -36,7 +36,7 @@
   .ul { font-size: 18px; }
   h4 { font-size: 18px; }
   h3 { font-size: 20px; }
-  .project-desc { padding: 0px, 60px, 0px, 60px; }
+  .project-desc { padding-left: 50%; padding-right: 50%; }
 }
 
 /* ======= Base ======= */
