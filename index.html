@@ -18,7 +18,7 @@
   </div>
   <!--*** WEBSITE HEADER *** -->
   <header class="header">
-    <div class="container"> 
+    <div class="container elements"> 
       <img class="profile-image img-responsive pull-left" src="assets/images/profile2.jpg" />
       <div class="profile-content pull-left">
         <h1 class="name">Kayla Bachler</h1>
@@ -32,92 +32,92 @@
       </div>
     </div>  
   </header>
+  <div class="elements">
+    <!--*** About Me *** -->
+    <div id= "about">
+      <div class="main-container">
+        <div class= "container with-title is-centered">
+          <h2 class= "title">About Me</h2>
+          <div class= "about-me-content">
+            <div class= "about-items">
+              <p>Hello there, my name is Kayla. Currently I am a senior at the University of Washington graduating in June 2019 with a bachelor's degree in Computer Science & Software Engineering. 
+                My courses have taught me a lot about the fundamentals of programming and have allowed me to become skilled in Java, C++ and Python. I have a dog, Levi, who is my best friend. 
+                After graduation I plan on remaining in the Seattle area working as a Software Engineer, but at this time I am open to exactly what the specifics of my job will entail.
+              </p>
+            </div>
+            <div class= "about-items">
+              <img src= "levi.png" type="png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <!--*** About Me *** -->
-  <div id= "about">
-    <div class="main-container">
-      <div class= "container with-title is-centered">
-        <h2 class= "title">About Me</h2>
-        <div class= "about-me-content">
-          <div class= "about-items">
-            <p>Hello there, my name is Kayla. Currently I am a senior at the University of Washington graduating in June 2019 with a bachelor's degree in Computer Science & Software Engineering. 
-              My courses have taught me a lot about the fundamentals of programming and have allowed me to become skilled in Java, C++ and Python. I have a dog, Levi, who is my best friend. 
-              After graduation I plan on remaining in the Seattle area working as a Software Engineer, but at this time I am open to exactly what the specifics of my job will entail.
+    <!--*** Projects *** -->     
+    <div id= "projects">
+      <div class="main-container">
+        <div class= "container with-title is-left">
+          <h2 class="title">Projects</h2>
+          <h3 class="subtitle">Very Blocky</h3>
+          <div class= "project-desc">
+            <p>2-D Puzzle platformer made by myself and four other UW students (David, Jonathan, Kyla, and Omar). 
+              We built our entire game as a quarter-long project from April 2018-June 2018 using the Unity game engine and C#. 
+              At this time I do not have a working WebGL for Very Blocky, but below is our game trailer if you are interested in seeing our work. 
             </p>
           </div>
-          <div class= "about-items">
-            <img src= "levi.png" type="png">
+          <video width="720" height="410" controls>
+            <source src="VeryBlocky_Video.mp4" type="video/mp4">
+          </video>
+          <div style= "text-align: center">
+            <a href="VeryBlocky_Windows_Standalone.zip" download="VeryBlocky">
+              <i class="fas fa-download"></i>
+            </a>
+            Download Very Blocky for your PC (Windows)
+          </div>
+          <h3 class="subtitle">HP BIOS Update: Meltdown and Spectre</h3>
+          <div class= "project-desc">
+            <p>This script performs a BIOS update for Meltdown and Spectre. This update is scripted specifically for HP models 840G3, 9470m, 9480m, 
+                z220, z230, z240, z420 and z440, and was deployed to 500+ computers through SCCM. All models have OS Windows 7 and PowerShell version 3. 
+                Here we check for an encrypted drive, if found we run a script to disable and re-enable the drive for the update. 
+                -Path is specific to the location of the model and the downloaded/extracted update from HP.
+            </p>
+          </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-<!--*** Projects *** -->     
-<div id= "projects">
-    <div class="main-container">
-      <div class= "container with-title is-left">
-        <h2 class="title">Projects</h2>
-        <h3 class="subtitle">Very Blocky</h3>
-        <div class= "project-desc">
-          <p>2-D Puzzle platformer made by myself and four other UW students (David, Jonathan, Kyla, and Omar). 
-            We built our entire game as a quarter-long project from April 2018-June 2018 using the Unity game engine and C#. 
-            At this time I do not have a working WebGL for Very Blocky, but below is our game trailer if you are interested in seeing our work. 
-          </p>
-        </div>
-        <video width="720" height="410" controls>
-          <source src="VeryBlocky_Video.mp4" type="video/mp4">
-        </video>
-        <div style= "text-align: center">
-          <a href="VeryBlocky_Windows_Standalone.zip" download="VeryBlocky">
-            <i class="fas fa-download"></i>
-          </a>
-          Download Very Blocky for your PC (Windows)
-        </div>
-        <h3 class="subtitle">HP BIOS Update: Meltdown and Spectre</h3>
-        <div class= "project-desc">
-          <p>This script performs a BIOS update for Meltdown and Spectre. This update is scripted specifically for HP models 840G3, 9470m, 9480m, 
-              z220, z230, z240, z420 and z440, and was deployed to 500+ computers through SCCM. All models have OS Windows 7 and PowerShell version 3. 
-              Here we check for an encrypted drive, if found we run a script to disable and re-enable the drive for the update. 
-              -Path is specific to the location of the model and the downloaded/extracted update from HP.
-          </p>
-        </div>
-        </div>
+      <!--*** Experience *** -->     
+      <div id= "experience">
+        <div class="main-container">
+          <div class= "container with-title is-centered">
+            <h2 class="title">Experience</h2>
+            <h3 class="subtitle">Student Technology Consultant</h3>
+            <div>
+              <ul>
+                <li>Provide technology assistance to patrons via the Tech Helpdesk at the UWB Library</li>
+                <li>Troubleshooting computer hardware/software/connectivity problems </li>
+                <li>Review, maintain and create documentation for various tasks </li>
+              </ul>
+            </div>
+          <h3 class="subtitle">ITS End User Support Student Engineer</h3>
+          <div id="bullets">
+            <ul>
+              <li>Scripting various software install/uninstall and upgrades for district PCs using PowerShell & SCCM </li>
+              <li>Replacing Physical Components of PC's (Video cards, Memory, Hard drives etc.)</li>
+              <li>Scheduling and performing over 200 computer replacements with active users </li>
+            </ul>
+          </div>
+          </div>
       </div>
     </div>
-  </div>
 
-  <!--*** Experience *** -->     
-  <div id= "experience">
-    <div class="main-container">
-      <div class= "container with-title is-centered">
-        <h2 class="title">Experience</h2>
-        <h3 class="subtitle">Student Technology Consultant</h3>
-        <div>
-          <ul>
-            <li>Provide technology assistance to patrons via the Tech Helpdesk at the UWB Library</li>
-            <li>Troubleshooting computer hardware/software/connectivity problems </li>
-            <li>Review, maintain and create documentation for various tasks </li>
-          </ul>
+    <!--*** Contact *** -->     
+    <div id= "contact">
+      <div class="main-container">
+        <div class= "container with-title is-centered">
+          <h2 class="title">Contact</h2>
+          <p>This will look nicer shortly, but in the meantime if you'd like to contact me please email me at bachlerk@uw.edu</p>
         </div>
-        <h3 class="subtitle">ITS End User Support Student Engineer</h3>
-        <div id="bullets">
-          <ul>
-            <li>Scripting various software install/uninstall and upgrades for district PCs using PowerShell & SCCM </li>
-            <li>Replacing Physical Components of PC's (Video cards, Memory, Hard drives etc.)</li>
-            <li>Scheduling and performing over 200 computer replacements with active users </li>
-          </ul>
-        </div>
-        </div>
-    </div>
-  </div>
-
-  <!--*** Contact *** -->     
-  <div id= "contact">
-    <div class="main-container">
-      <div class= "container with-title is-centered">
-        <h2 class="title">Contact</h2>
-        <p>This will look nicer shortly, but in the meantime if you'd like to contact me please email me at bachlerk@uw.edu</p>
       </div>
     </div>
   </div>
