@@ -32,6 +32,7 @@
 
 @media screen and (min-width: 500px) {
   body { width:420px; }
+  .container {width: 50%;}
 }
 
 @media screen and (min-width: 800px) {
@@ -188,6 +189,7 @@ a.btn .fa {
 .container {
   position: relative;
   padding: 1.5rem 2rem;
+  width: 100%;
 }
 .container.is-centered {
   text-align: center;
@@ -210,7 +212,7 @@ a.btn .fa {
 .project-desc {
   padding-left: 120px;
   padding-right: 120px;
-  height: 100%;
+  width: 100%;
 }
 
 #bullets {
