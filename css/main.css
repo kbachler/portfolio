@@ -61,12 +61,14 @@ h1 {
   color:#1a142c;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color:#778492;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   color:#778492;
 }
@@ -101,7 +103,7 @@ a.btn .fa {
 .header {
   padding: 0px 0px 30px 0px; /*top right bottom left*/
   width: 100%;
-  background:#dae3e7;
+  background:#e6eef5;
   border-top: 5px solid #778492;
   overflow: auto;
 }
@@ -238,7 +240,7 @@ a.btn .fa {
 h3 {
   font-style: bold;
   color: #494E6B;
-  font-size: 150%;
+  font-size: 135%;
   text-align: left;
   padding-left: 5%;
 }
