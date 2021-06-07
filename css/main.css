@@ -45,7 +45,7 @@ body {
   background: white;
   width: 100%;
   margin: 0px;
-  font-size: 16px;
+  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -110,7 +110,9 @@ a.btn .fa {
 .header .profile-image {
   margin-right: 30px;
   margin-left: 50px;
-  float: left
+  float: left;
+  width: 50%;
+  height: 50%;
 }
 .header .profile-content .name {
   color: #49515a;
@@ -165,11 +167,16 @@ a.btn .fa {
 
 /* ======= Webpage Body ======= */
 #about {
-  padding: 40px 40px 40px 40px;
+  padding: 40px 50px 40px 50px;
 }
 
 .about-items {
-  width: 50%;
+  width: 70%;
+}
+
+.about-items img {
+  width: 60%;
+  height: 60%;
 }
 
 .about-me-content {
