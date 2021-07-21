@@ -79,7 +79,7 @@ h1 {
     color: white;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -211,7 +211,9 @@ textarea {
     padding: 50px;
 }
 
-@media screen and (max-width: 480px) {
+
+/* Mobile Screen */
+@media screen and (max-width: 1030px) {
     .links {
         font-size: 3em;
         margin: 0 180px;
@@ -219,7 +221,7 @@ textarea {
 
     h1 {
         top: 40%;
-        font-size: 5.5rem;
+        font-size: 4rem;
     }
 
     header h2 {
@@ -298,3 +300,91 @@ textarea {
         font-size: 1.2rem;
     }
 }
+
+/* @media screen and (min-width: 961px) {
+    .links {
+        font-size: 5em;
+        margin: 0 180px;
+    }
+
+    h1 {
+        top: 40%;
+        font-size: 7rem;
+    }
+
+    header h2 {
+        font-size: 1.8rem;
+    }
+
+    .content {
+        margin: 40px;
+    }
+
+    .fa-linkedin {
+        top: 80%;
+        left: 25%;
+    }
+    
+    .fa-github {
+        top: 80%;
+        left: 50%;
+    }
+    
+    .fa-instagram {
+        top: 80%;
+        left: 75%;
+    }
+
+    .main-container {
+        margin: 50px;
+        border: none;
+        background-color: rgb(238, 207, 172);
+    }
+
+    .about-me-content img {
+        margin: 20px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .about-me-content p {
+        text-align: center;
+    }
+
+    .hamburger {
+        font-size: 3rem;
+        color:rgb(255, 255, 255);
+        position: absolute;
+    }
+    .sidenav .closebtn {
+        font-size: 6rem;
+    }
+
+    .title {
+        font-family: Amatic SC, sans-serif;
+        font-size: 3rem;
+        color:rgb(255, 255, 255);
+    }
+
+    .project-desc {
+        margin: 10px;
+    }
+
+    .container-with-title-is-centered {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .experience-content {
+        margin: 20px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .experience-title {
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+} */
