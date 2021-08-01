@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bree+Serif&display=swap');
 
 * {
     margin: 0;
@@ -68,24 +68,29 @@
     max-height: 100%;
 }
 
-/* .header-div::before {    
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(149, 147, 147, 0.5);
-} */
+.header-div {
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.3)), url("../assets/images/headerimg.jpg");
+}
 
 h1 {
     font-family: Amatic SC, sans-serif;
-    font-size: 5.5rem;
+    font-size: 7rem;
+    font-weight: bold;
     text-align: center;
     margin: 10px, 20px;
-    color: white;
-    text-shadow: 2px 2px #000;
-    margin: 0;
+    color: rgb(255, 255, 255);
+    text-shadow:
+        0.05em 0 0.025em black,
+        0 0.05em 0.025em black,
+        -0.05em 0 0.025em black,
+        0 -0.05em 0.025em black,
+        -0.05em -0.05em 0.025em black,
+        -0.05em 0.05em 0.025em black,
+        0.05em -0.05em 0.025em black,
+        0.05em 0.05em 0.025em black;
     position: absolute;
     top: 40%;
     left: 50%;
@@ -94,12 +99,20 @@ h1 {
 
 header h2 {
     color: white;
-    text-shadow: 2px 2px #000;
+    text-shadow:
+        0.05em 0 0.025em black,
+        0 0.05em 0.025em black,
+        -0.05em 0 0.025em black,
+        0 -0.05em 0.025em black,
+        -0.05em -0.05em 0.025em black,
+        -0.05em 0.05em 0.025em black,
+        0.05em -0.05em 0.025em black,
+        0.05em 0.05em 0.025em black;
     text-transform: uppercase;
     position: absolute;
     top: 60%;
     left: 50%;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     transform: translate(-50%, -50%);
 }
 
@@ -132,16 +145,26 @@ header h2 {
     text-align: center;
     margin: 0 0 20px 0;
     font-family: Amatic SC, sans-serif;
-    font-size: 3rem;
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-shadow: 1px 2px rgb(49, 160, 145);
 }
 
 /* Social links */
 .links {
     list-style: none;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 0 5px;
-    text-shadow: 2px 2px #000;
+    text-shadow:
+        0.05em 0 0.025em black,
+        0 0.05em 0.025em black,
+        -0.05em 0 0.025em black,
+        0 -0.05em 0.025em black,
+        -0.05em -0.05em 0.025em black,
+        -0.05em 0.05em 0.025em black,
+        0.05em -0.05em 0.025em black,
+        0.05em 0.05em 0.025em black;
 }
 
 .fa-linkedin {
@@ -175,7 +198,7 @@ header h2 {
 
 .project-desc a {
     text-decoration: none;
-    color:rgb(128, 176, 207)
+    color:rgb(128, 176, 207);
 }
 
 .experience-content {
@@ -286,6 +309,7 @@ textarea {
         font-family: Amatic SC, sans-serif;
         font-size: 3rem;
         color:rgb(255, 255, 255);
+        text-shadow: 2px 2px #000;
     }
 
     .project-desc {
