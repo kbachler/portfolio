@@ -157,14 +157,14 @@ header h2 {
     font-size: 3rem;
     margin: 0 5px;
     text-shadow:
-        0.05em 0 0.025em black,
-        0 0.05em 0.025em black,
-        -0.05em 0 0.025em black,
-        0 -0.05em 0.025em black,
-        -0.05em -0.05em 0.025em black,
-        -0.05em 0.05em 0.025em black,
-        0.05em -0.05em 0.025em black,
-        0.05em 0.05em 0.025em black;
+        0.04em 0 0.025em black,
+        0 0.04em 0.025em black,
+        -0.04em 0 0.025em black,
+        0 -0.04em 0.025em black,
+        -0.04em -0.04em 0.025em black,
+        -0.04em 0.04em 0.025em black,
+        0.04em -0.04em 0.025em black,
+        0.04em 0.04em 0.025em black;
 }
 
 .fa-linkedin {
@@ -222,7 +222,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #97b7bb;
+    background-color: #45aaaa;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -231,7 +231,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #74a5aa;
+    background-color: #379aa5;
 }
 
 textarea {
@@ -242,6 +242,10 @@ textarea {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 50px;
+}
+
+.contact-form label {
+    font-family: 'Open Sans', sans-serif;
 }
 
 
