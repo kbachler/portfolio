@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Kayla Bachler - Portfolio</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>   
+<body>
+  <!-- Side navigation -->
+  <div class="sidenav" id="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <span class="hamburger" onclick="openNav()"><i class="fas fa-bars"></i></i></span>
+  <div id="main">
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="header-div">
+        <h1>Hello, my name is Kayla.</h1>
+        <!-- <img src="assets/images/header.jpg" alt="Photo by Social Cut on Unsplash" id="header-img"/> -->
+        <div class="header-content">
+          <h2>Software Engineer - Seattle, WA</h2>
+          <!--Social Links-->
+          <ul>
+            <li class="links"><a href="https://www.linkedin.com/in/kaylabachler" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li class="links"><a href="https://github.com/kbachler" target="_blank"><i class="fab fa-github"></i></a></li>                  
+            <li class="links"><a href="https://www.instagram.com/kaylaillustrates" target="_blank"><i class="fab fa-instagram"></i></a></li>                 
+          </ul>
+        </div>
+      </div>  
+    </header>
+    <div class="content">
+      <!--*** About Me *** -->
+      <div id= "about">
+        <div class="main-container">
+          <div class="container-with-title-is-centered">
+            <h2 class= "title">About Me</h2>
+            <div class="about-me-content">
+              <div class= "image-container">
+                <img src="assets/images/profile.png" alt="profile photo" id="image"/>
+              </div>
+              <p>I'm a Washington local and University of Washington alumna, Go Dawgs! When I'm not working on a coding project you can find me with my dog Marlow, paddle boarding on Lake Washington, or drawing up a new creation. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--*** Projects *** -->     
+      <div id= "projects">
+        <div class="main-container">
+          <div class= "container-with-title-is-centered">
+            <h2 class="title">Featured Projects</h2>
+            <h3 class="subtitle">AWS File Backup</h3>
+            <div class= "project-desc">
+              <p>Developed with Python. Built using VS Code, cloud storage APIs, and AWS CLI.
+                Recursively traverses the files of a local directory and makes a backup to the cloud.
+                Recursion, user input, error handling, and cloud storage were used in implementation. 
+              </p>
+              <div style= "text-align: center">
+                <a href="https://github.com/kbachler/AWS_Backup" target=blank>View Project</a>
+              </div>
+            </div>
+            <h3 class="subtitle">HP BIOS Update: Meltdown and Spectre</h3>
+            <div class= "project-desc">
+              <p>This script performs a BIOS update for Meltdown and Spectre. This update is scripted specifically for HP models 840G3, 9470m, 9480m, 
+                  z220, z230, z240, z420 and z440, and was deployed to 500+ computers through SCCM. All models have OS Windows 7 and PowerShell version 3. 
+                  Here we check for an encrypted drive, if found we run a script to disable and re-enable the drive for the update. 
+                  -Path is specific to the location of the model and the downloaded/extracted update from HP.
+              </p>
+              <div style= "text-align: center">
+                <a href="https://github.com/kbachler/HP-BIOS-Update-Meltdown-and-Spectre" target=blank>View Project</a>
+              </div>
+            </div>
+            <h3 class="subtitle">Classifying MNIST Handwritten Images with Backpropagation</h3>
+            <div class= "project-desc">
+              <p>Backpropagation ANN algorithm and Matlab used to classify 60k handwritten training images and 10k test images from the MNIST database.
+                  The training images consisted of ten target pattern outputs (0 through 9). As stated on the MNIST databse website, the test images are 
+                  half normal random samples from the training set, and half distorted digits. Log-sigmoid transfer functions, 50 hidden units, and a 
+                  learning rate of 0.0005 was used to train the network.
+              </p>
+              <div style= "text-align: center">
+                <a href="https://github.com/kbachler/Backpropagation-Matlab" target=blank>View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--*** Experience *** -->     
+      <div id= "experience">
+        <div class="main-container">
+          <div class= "container-with-title-is-centered">
+            <h2 class="title">Work Experience</h2>
+            <div class="experience-content">
+              <h3 class="experience-title">EDI Developer II</h3>
+              <h4 class="experience-timeline">June 2019 - Present</h4>
+              <h4 class="experience-company">Expeditors</h4>
+              <div class="experience-tasks">
+                <ul>
+                  <li>Translate electronic data to/from client formatting to Customs boarder accepted formats</li>
+                  <li>Coded 100+ new projects and enhancements to existing code with legacy SmallTalk software, </br> as well as java-based WebMethods</li>
+                  <li>Worked in agile team environment with several projects assigned to me and maintained</li>
+                </ul>
+              </div>
+            </div>
+            <div class="experience-content">
+              <h3 class="experience-title">Student Technology Consultant</h3>
+              <h4 class="experience-timeline">September 2016 - June 2019</h4>
+              <h4 class="experience-company">University of Washington</h4>
+              <div class="experience-tasks">
+                <ul>
+                  <li>Provide technology assistance to patrons via the Tech Helpdesk at the UWB Library</li>
+                  <li>Troubleshooting computer hardware/software/connectivity problems </li>
+                  <li>Review, maintain and create documentation for various tasks </li>
+                </ul>
+              </div>
+            </div>
+            <div class="experience-content">
+              <h3 class="experience-title">ITS End User Support Student Engineer Internship</h3>
+              <h4 class="experience-timeline">Summer 2016, 2017 & 2018</h4>
+              <h4 class="experience-company">Snohomish County PUD</h4>
+              <div class="experience-tasks">
+                <ul>
+                  <li>Scripting various software install/uninstall and upgrades for district PCs using PowerShell & SCCM </li>
+                  <li>Replacing Physical Components of PC's (Video cards, Memory, Hard drives etc.)</li>
+                  <li>Scheduling and performing over 200 computer replacements with active users </li>
+                </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!--*** Contact *** -->     
+      <div id= "contact">
+        <div class="main-container">
+          <div class= "container-with-title-is-centered">
+            <h2 class="title">Contact</h2>
+            <div class="contact-form">
+              <form id="contact-form" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/myyldogy" method="post">
+                <label for="name">Name</label>
+                <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
+                <br>
+                <label for="email">Email</label>
+                <input type="text" name="email" class="form-control" placeholder="Enter your email" required>
+                <br>
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" placeholder="Write something here..." required></textarea>
+            
+                <input type="submit" class="form-contorl-submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Script -->
+      <script src="script.js"></script>
+    </div>
+  </div>
+</body>
+</html>
