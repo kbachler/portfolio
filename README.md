@@ -1,2 +1,2 @@
 # portfolio
-Personal portfolio: kaylabachler.com
+Personal portfolio: kaylawaldner.com
