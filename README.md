@@ -1,2 +1,2 @@
 # portfolio
-Personal portfolio: [a link](kaylawaldner.com)
+Personal portfolio: kaylawaldner.com
